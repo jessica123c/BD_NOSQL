@@ -1,0 +1,3 @@
+--Buscar un producto específico por nombre--
+
+db.productos.find({ nombre: "Manzana" })
