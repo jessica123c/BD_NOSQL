@@ -1,0 +1,3 @@
+---Mostrar todos los clientes--
+
+db.clientes.find()
