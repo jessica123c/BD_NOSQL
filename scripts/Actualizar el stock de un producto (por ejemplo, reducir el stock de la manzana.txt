@@ -1,0 +1,6 @@
+--Actualizar el stock de un producto (por ejemplo, reducir el stock de la manzana--
+
+db.productos.updateOne(
+  { nombre: "Manzana" },
+  { $inc: { stock: -3 } }
+)
