@@ -1,0 +1,5 @@
+---Calcular el total de todas las ventas--
+
+db.ventas.aggregate([
+  { $group: { _id: null, totalVentas: { $sum: "$total" } } }
+])
