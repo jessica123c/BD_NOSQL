@@ -1,0 +1,2 @@
+--Buscar ventas realizadas por un cliente en particular (por su cliente_id)--
+db.ventas.find({ cliente_id: 1 })
